@@ -1,7 +1,7 @@
 Package.describe({
   name: 'hopskipdrive:google-cloud',
   version: '0.0.1',
-  summary: 'Wrapper for Node "gcloud" package',
+  summary: 'Wrapper for Node "gcloud" package. Forked from micahalcorn',
   git: 'https://github.com/hopskipdrive/meteor-google-cloud',
   documentation: 'README.md'
 });
