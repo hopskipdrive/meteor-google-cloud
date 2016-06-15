@@ -1,6 +1,6 @@
 Package.describe({
   name: 'micah:google-cloud',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'Wrapper for Node "gcloud" package',
   git: 'https://github.com/micahalcorn/meteor-google-cloud',
   documentation: 'README.md'
@@ -19,5 +19,5 @@ Package.onTest(function (api) {
 });
 
 Npm.depends({
-  'gcloud': '0.20.0'
+  'gcloud': '0.36.0'
 });
