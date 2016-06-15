@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'micah:google-cloud',
-  version: '0.0.2',
+  name: 'hopskipdrive:google-cloud',
+  version: '0.0.1',
   summary: 'Wrapper for Node "gcloud" package',
-  git: 'https://github.com/micahalcorn/meteor-google-cloud',
+  git: 'https://github.com/hopskipdrive/meteor-google-cloud',
   documentation: 'README.md'
 });
 
@@ -14,7 +14,7 @@ Package.onUse(function (api) {
 
 Package.onTest(function (api) {
   api.use('tinytest');
-  api.use('micah:google-cloud');
+  api.use('hopskipdrive:google-cloud');
   api.addFiles('lib/google-cloud-tests.js', 'server');
 });
 
